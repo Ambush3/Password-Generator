@@ -21,6 +21,7 @@ generate.addEventListener('click', () => {
     if (checked) {
         final_string += "@#$%^&*";
     }
+    // i is assigned to 0, if i is less than pwd_length, then increment i
     for (var i = 0; i < pwd_length.value; i++) {
         let pwd = final_string[Math.floor(Math.random() * final_string.length)];
         password += pwd;
