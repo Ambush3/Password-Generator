@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./main.css">
+    <script src="https://kit.fontawesome.com/94a8dc06e7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="box">
+        <button id="generate" class="action-btn">
+            Generate Password
+            <i class="fa-solid fa-key"></i>
+        </button>
+        <div class="slider_main">
+            <input type="range" value="8" min="1" max="16" class="slider"
+                oninput="this.nextElementSibling.value = this.value" id="slider">
+            <output>8</output>
+        </div>
+        <label class="container" style="font-family:Verdana, Geneva, Tahoma, sans-serif;color: rgb(3, 3, 3);">Include
+            special characters
+            <input type="checkbox" checked="checked" id="checkbox">
+            <span class="checkmark"></span>
+        </label>
+    </div>
+
+
+
+    </div>
+    <div class="wrapper_main">
+        <h5 id="pwd_txt"></h5>
+        <button id="clipboard" class="clipboard">
+            <i class="fas fa-clipboard"></i>
+        </button>
+    </div>
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
