@@ -102,7 +102,7 @@ body {
 -webkit-appearance: none;
     width: 80%;
     height: 10px;
-    background: #0475f7;
+    background: black;
     border-radius: 15px;
     opacity: 1;
     -webkit-transition: .2s;

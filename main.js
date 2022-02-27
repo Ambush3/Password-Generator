@@ -30,7 +30,7 @@ generate.addEventListener('click', () => {
     final_string = string;
 });
 
-
+// click the clipboard icon to copy password
 clipboard.addEventListener('click', () => {
     navigator.clipboard.writeText(password_ele.innerText);
     alert("Password copied to clipboard");
